@@ -99,8 +99,4 @@ curl -X POST http://localhost:5000/api/<forecast-endpoint> \
 - If you see import errors for local modules, ensure the working directory is the repository root and the virtual environment is active.
 - If ports are in use, change the `--port` or the value in `server.py`.
 
-## License
-
-Add a LICENSE file appropriate to your project. If you don't have one yet, consider `MIT`, `Apache-2.0`, or another permissive license.
-
 ```
