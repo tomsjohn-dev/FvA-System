@@ -1,11 +1,10 @@
 from fastapi import APIRouter
+from controllers.forecastController import parseForecastInput
 
 router = APIRouter()
 
 @router.post('/forecast')
 def fetch_forecast_input(data:dict):
 
-    print("API hit")
-    print("Received:", data)
+    return parseForecastInput(data)
     
-    return {"status":200,"data":data}
